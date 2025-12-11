@@ -21,6 +21,7 @@ const createUser = async (req, res) => {
   res.status(201).json(newUser);
 };
 
+
 module.exports = {
   getUsers,
   getUserByID,
